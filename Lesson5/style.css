@@ -1,0 +1,16 @@
+body{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    
+}
+#rollButton{
+    width: 100px;
+    height: 60px;
+
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
