@@ -1,0 +1,37 @@
+#CheckLabel1{
+    font-size: 40px;
+}
+#myCheckBox{
+   width: 20px;
+   height: 20px;
+}
+
+#radioLabel{
+    font-size: 20px;
+}
+
+#visaBtn{
+    width: 20px;
+    height: 20px;
+   
+}
+
+#mastercardBtn{
+    width: 20px;
+    height: 20px;
+
+}
+#paypalBtn{
+    width: 20px;
+    height: 20px;
+
+}
+
+#myButton{
+    width: 80px;
+    height: 40px;
+}
+
+#inputs{
+    text-align: center;
+}
