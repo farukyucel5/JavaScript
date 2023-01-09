@@ -57,3 +57,43 @@ function toFahrenheit(temp){
 }
 
 
+// array = think of it as a variable 
+//              that can store multiple values
+
+let fruits = ["apple", "orange", "banana"];
+
+fruits[2] = "coconut";
+
+fruits.push("lemon");      //add an element
+fruits.pop();                     //removes last element
+fruits.unshift("mango"); //add element to beginning
+fruits.shift();                   //removes element from beginning
+
+let length = fruits.length;
+let index = fruits.indexOf("kiwi");
+
+console.log(fruits);
+
+
+let prices = [5, 10, 15, 20, 25];
+
+/*
+for(let i = 0; i < prices.length; i+=1){
+    console.log(prices[i]);
+}
+*/
+
+for(let price of prices){
+    console.log(price);
+}
+
+
+let fruits1 = ["banana", "apple", "orange", "mango"];
+
+fruits1 = fruits1.sort();
+//fruits1 = fruits1.sort().reverse();
+
+for(let fruit of fruits1){
+    console.log(fruit);
+}
+
