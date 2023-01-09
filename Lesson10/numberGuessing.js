@@ -27,7 +27,7 @@ document.getElementById("resetBtn").onclick=function(){
 }
 
 
-document.getElementById("submitButton").onclick = function(){
+document.getElementById("submitButton1").onclick = function(){
 
   let temp;
 
