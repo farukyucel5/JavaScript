@@ -1,29 +1,40 @@
-debugger;
-let weight =Number(prompt("pass in your weight"));
 
-let height =Number(prompt("pass in your height"));
+// let weight =Number(prompt("pass in your weight"));
 
-
-function kontrolet(w,h){
+// let height =Number(prompt("pass in your height"));
 
 
-
-let result =w/h**2;
+// function kontrolet(w,h){
 
 
 
-if(result<18.5){
-    alert("You are underweighted "+ result)
+// let result =w/h**2;
 
-}else if(result>18.5 && result<24.5){
 
-    alert("you are fit " + result)
 
-}
-else{
-    alert("you are overweighted "+ result)
-}
+// if(result<18.5){
+//     alert("You are underweighted "+ result)
 
-}
+// }else if(result>18.5 && result<24.5){
 
-kontrolet(weight,height);
+//     alert("you are fit " + result)
+
+// }
+// else{
+//     alert("you are overweighted "+ result)
+// }
+
+// }
+
+// kontrolet(weight,height);
+
+let array=["a", "b", "c", "d", "e", "f"];
+let concat=''
+
+array.forEach(function(each){
+    debugger;
+    concat+=each
+
+});
+
+console.log(concat)
