@@ -63,12 +63,9 @@ const calculate= (par1,par2)=>{
     const substraction =par1-par2
     const multiplication=par1*par2
     const division= par2!=0 ? par1/par2 : console.log("undefined")
-    
-
     const arr = [sum,substraction,multiplication,division]
 
     return arr
-
 }
 
 let [a,b,c,d]=calculate(10,0)
