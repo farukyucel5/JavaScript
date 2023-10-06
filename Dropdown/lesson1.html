@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dil Seçimi</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Dil Seçimi</h1>
+    
+    <!-- Dil seçimi için dropdown -->
+    <select id="dilSecimi">
+        <option value="EN">EN</option>
+        <option value="RU">RU</option>
+        <option value="TR">TR</option>
+    </select>
+
+    <!-- Seçilen dilin görüneceği input alanı -->
+    <input type="text" id="secilenDil" value="" disabled>
+
+    <script>
+        // Dropdown değiştikçe işlem yap
+        $('#dilSecimi').change(function() {
+            // Seçilen dilin değerini al
+            var secilenDil = $(this).val();
+
+            // Seçilen dilin değerini input alanına yaz
+            $('#secilenDil').val(secilenDil);
+        });
+    </script>
+</body>
+</html>
